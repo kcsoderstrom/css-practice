@@ -1,0 +1,164 @@
+/* RESET */
+header, html, body, main, footer, figure, ul, li, form, button, input, a, img, h1, h2, div {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+  list-style: none;
+  font: inherit;
+}
+
+/* body */
+
+body {
+  font-family: sans-serif;
+  color: #222;
+  position: relative;
+  padding-bottom: 52px;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* header */
+
+header {
+  margin-top: 28;
+  letter-spacing: .15px;
+}
+
+.header-ul {
+  float: right;
+  margin-right: 28;
+}
+
+.header-ul > li {
+  float: left;
+  padding: 0 10px;
+}
+
+.header-ul > li > a {
+
+}
+
+.dropdown {
+  display: none;
+}
+
+.user-info {
+
+}
+
+.user-info > a {
+
+}
+
+.name {
+
+}
+
+.email {
+
+}
+
+.session {
+
+}
+
+.session-button {
+
+}
+
+
+/* main */
+
+main {
+
+}
+
+main > figure {
+/*  margin-top: 240;*/
+  padding-top: 210;
+  width: 340;
+  margin: 0 auto;
+}
+
+main > figure > img {
+  width: 100%;
+}
+
+main > form > .search-bar {
+  border: 1px solid #D8D8D8;
+  width: 715;
+  margin: 0 auto;
+  margin-top: 30;
+}
+
+main > form > .search-bar > input {
+  height: 35;
+}
+
+main > form > .search-bar > img {
+  float: right;
+  padding-top: 4px;
+}
+
+.buttons {
+  font-weight: bold;
+  margin: 11px auto;
+  width: 305px;
+}
+
+.buttons > button {
+  border-radius: 2px;
+  border: 1px solid #DCDCDC;
+  background-color: #F1F1F1;
+  font-size: 14;
+  padding: 10px 12px;
+  margin: 8px;
+  color: #444;
+}
+
+main > form > .buttons > .submit {
+
+}
+
+main > form > .buttons > .lucky {
+
+}
+
+/* footer */
+
+footer {
+  position: absolute;
+  background-color: #F2F2F2;
+  color: #666;
+  border-top: 1px solid #E4E4E4;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-left-nav {
+  float: left;
+  width: 50%;
+  margin-left: 15px;
+}
+
+.footer-right-nav {
+  float: right;
+  margin-right: 15;
+}
+
+footer li {
+  float: left;
+  padding: 18px 20px 15px 20px;
+}
+
+footer li > a {
+
+}

@@ -1,0 +1,71 @@
+/* RESET */
+
+html, body, header, section, h1, p, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  text-decoration: inherit;
+}
+
+body {
+  padding: 50px;
+  font-family: sans-serif;
+}
+
+.post {
+  width: 482;
+  margin: auto;
+  border-width: 5px 10px;
+  border-style: solid;
+  border-color: #DDDDDD;
+}
+
+.post:first-child {
+  border-top: 10px;
+  border-style: solid;
+  border-color: #DDDDDD;
+}
+
+.post:last-child {
+  border-bottom: 10px;
+  border-style: solid;
+  border-color: #DDDDDD;
+}
+
+
+.post-header {
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: #DDDDDD;
+
+}
+
+.post-header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.avatar {
+  float: left;
+  margin: 20px;
+  border: 2px solid blue;
+}
+
+.post-info {
+  margin: 20px 0;
+  float: left;
+  color: #99999C;
+}
+
+.author {
+  color: blue;
+  font-weight: bold;
+}
+
+.post-content {
+  padding: 21px;
+}
